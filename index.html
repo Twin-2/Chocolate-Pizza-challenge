@@ -2,30 +2,76 @@
 <html>
 <head>
 <title>Chocolate Pizza</title>
-</head>
-<body>
 
-<h1>My heading</h1>
+<style>
+body{
+    max-width: 800px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#heading{
+    width: 300px;
+}
+#main-logo{
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+#main-heading{
+    font-size: 70px;
+    font-family:"Brush Script MT";
+}
+#sub-main-heading{
+    font-family:"sans-serif";
+    font-size: 10px;
+    vertical-align: text-top;
+}
+#small-icons{
+    float: right;
+}
+</style>
 
-<p>Images</p>
-<img id="pizza" src="assets/choco-pizza.png" alt="picture of chocolate pizza">
-<img id="main-logo" src="assets/logo.png">
+ </head>
 
-<img src="assets/fb-icon.png">
-<img src="assets/flic-icon.png">
-<img src="assets/gp-icon.png">
-<img src="assets/insta-icon.png">
+ <body>
+    <header class="flex-container">
+        <div><img id="main-logo" src="assets/logo.png"></div>
+
+        <div id='heading'>
+                <p id="main-heading"> Delicious <br> <span id="sub-main-heading">THE BEST FOOD BLOG ON THE WEB</span></p>
+        </div>
+        
+        <div id="small-icons">
+            <img class="small-icons" src="assets/fb-icon.png">
+            <img class="small-icons" src="assets/twit-icon.png">
+            <img class="small-icons" src="assets/gp-icon.png">
+            <img class="small-icons" src="assets/insta-icon.png">
+            <img class="small-icons" src="assets/flic-icon.png">
+            <img class="small-icons" src="assets/pint-icon.png">
+            <img class="small-icons" src="assets/rss-icon.png">
+            <img class="small-icons" src="assets/mail-icon.png">
+        </div>
+    </header>
+    
 
 
-<img src="assets/mail-icon.png">
-<img src="assets/pint-icon.png">
-<img src="assets/print-icon.png">
-<img src="assets/rss-icon.png">
-<img src="assets/small-logo.png">
-<img src="assets/twit-icon.png">
-<img src="assets/van-pic.png">
+    <img id="pizza" src="assets/choco-pizza.png" alt="picture of chocolate pizza">
+
+
+
+
+
+
+
+<img id="small-print-icon" src="assets/print-icon.png">
+<img id="author-picture" src="assets/van-pic.png">
 
 <img id="list-background" src="assets/list-bg.png">
+<img id="footer-logo" src="assets/small-logo.png">
+
 
 </body>
 </html>
