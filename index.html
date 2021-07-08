@@ -3,106 +3,7 @@
 <head>
 <title>Chocolate Pizza</title>
 
-<style>
-body{
-    position: relative;
-    right: 25%;
-    left: 25%;
-    max-width: 750px;
-}
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    height: 100px;
-    
-    
-}
-
-#main-logo{
-    float: left;
-    height: 70px;
-    width: 70px;
-    padding: 3px;
-    position:relative;
-}
-#main-logo-box{
-    vertical-align: center;
-}
-#heading{
-    margin-right: 280px;
-}
-#main-heading{
-    font-size: 50px;
-    font-family:"Brush Script MT";
-}
-#sub-main-heading{
-    font-family:"sans-serif";
-    font-size: 10px;
-    vertical-align: text-top;
-}
-#small-icons{
-    float: right;
-    
-
-}
-#content-heading{
-    font-size: 30px;
-    line-height: .5;
-    font-weight: bold;
-    font-family: "Impact";
-}
-#subheading2{
-    font-size: 10px;
-    color:grey;
-    font-family: "sans-serif";
-}
-#pizza{
-    width: 750px;
-    
-}
-#small-print-icon{
-    float: right;
-    margin-right: 0px;
-}
-#recipe{
-    position: relative;
-    max-width: 750px;
-    text-indent: 25px;
-}
-#list-background{
-    width: 750px;
-}
-#ingredients{
-    display:inline;
-    position:relative;
-    font-family: "Comic Sans MS";
-    color:gray;
-    line-height: 1.8;
-}
-
-#right-side-ingredients{
-    position: absolute;
-    top: -225px;
-    left: 450px;
-    width: 300px;
-}
-#left-side-ingredients{
-    position:absolute;
-    top: -225px;
-    left: 16px;
-    width: 250px;
-}
-#ingredient-list{
-    list-style-type:none;
-}
-#right-side-ingredients li:nth-child(2){
-    text-decoration: line-through;
-}
-#right-side-ingredients li:nth-child(3){
-    text-decoration: line-through;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 
  </head>
 
@@ -126,7 +27,9 @@ body{
         </div>
         
     </header>
-    
+
+    <hr id="line">
+
     <div id="main-title">
         <div id="small-print-icon"><img id="small-print-icon" src="assets/print-icon.png"></div>
         <h1 id="content-heading">Chocolate Pizza <br> <span id="subheading2">POSTED ON 15 DEC 2013 / DESSERTS</span></h1>
@@ -165,16 +68,29 @@ body{
         </div>
     </div>
 
+    <hr id="line">
 
+    <div id="pre-footer">
+        <div class="author-picture"><img id="author-picture" src="assets/van-pic.png"></div>
+        <div id="share-box"><span id="share-box-text">SHARE RECIPE</span></div>
+        <div id="pre-footer-text">
+            <p id="author-name">Vanessa Stevenson</p>
+            <p id="author-about">Food Enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
+        
+    </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
 
-
-
-<img id="author-picture" src="assets/van-pic.png">
-
-
-<img id="footer-logo" src="assets/small-logo.png">
-
+    <footer id="footer">
+        <hr>
+        <img id="footer-logo" src="assets/small-logo.png">
+        <br>
+        <div id="footer-text">Delicious &#169; 2013  All Rights Reserved. <br> Proudly published with Ghost</div>
+    </footer>
 
 </body>
 </html>
